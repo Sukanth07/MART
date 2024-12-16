@@ -24,9 +24,9 @@ class Config:
     # Vector Store Configurations
     GOOGLE_API_KEY = os.getenv("GOOGLE_API_KEY")
     GOOGLE_EMBEDDING_MODEL = "models/embedding-001"
-    CHUNK_SIZE = 2000
-    CHUNK_OVERLAP_SIZE = 500
-    TOP_K = 5
+    CHUNK_SIZE = 1500
+    CHUNK_OVERLAP_SIZE = 200
+    TOP_K = 3
     
     # Research Configurations
     MAX_ITERATIONS = 3
