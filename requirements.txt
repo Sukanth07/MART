@@ -1,0 +1,10 @@
+beautifulsoup4
+faiss-cpu
+google-generativeai
+groq
+langchain
+langchain-community
+langchain-google-genai
+python-dotenv
+requests
+streamlit
