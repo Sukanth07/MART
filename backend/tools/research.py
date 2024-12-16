@@ -60,7 +60,7 @@ class Research:
                 st.markdown(f"""
                     <div class="chat-box">
                         <span class="icon">✍️</span>
-                        <span class="reviewer-role">Summarizer: </span>
+                        <span class="summarizer-role">Summarizer: </span>
                         Thanks for the feedback. <span class="bold-text">Trying to do better...</span>
                     </div>""", unsafe_allow_html=True)
                 
