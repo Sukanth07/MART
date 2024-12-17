@@ -10,6 +10,10 @@ class ReviewerAgent:
         prompt = f"""
 You are a Senior Reviewer in an R&D team. Evaluate the research output fairly and provide structured feedback in JSON format.
 
+### Constraints:
+- Provide the response strictly in json format.
+- Don't give any additional information or explainations beyond the json formatted output
+
 ### Evaluation Metrics:
 1. **Relevance**: Does it address the user query?
 2. **Depth**: Are there sufficient details, examples, or comparisons?

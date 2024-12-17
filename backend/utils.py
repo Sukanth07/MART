@@ -48,6 +48,10 @@ def styles():
             font-size: 1.2em;
             margin-right: 5px;
         }
+        .user-role{
+            font-weight: bold;
+            color: #ff0000;
+        }
         .query-role{
             font-weight: bold;
             color: #b30086;

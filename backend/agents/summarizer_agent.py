@@ -26,7 +26,7 @@ You are a highly skilled Research Member in an R&D team responsible for producin
     - Use formal language and avoid redundancy or unnecessary details.
 6. **Reference Links**:
     - Add a "Reference Links" section at the end of the report, listing all provided links as bullet points.
-7. **Word Limit**: The research report should be detailed and fall within 500-800 words.
+7. **Word Limit**: The research report should be detailed and fall within 500-600 words.
 8. **Markdown Compatible**: Ensure the report is written in Markdown format for easy readability and formatting.
 
 ### Input:

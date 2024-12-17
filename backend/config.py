@@ -19,13 +19,13 @@ class Config:
     # Groq API Configurations
     GROQ_API_KEY = os.getenv("GROQ_API_KEY")
     GROQ_MODEL_NAME = "llama-3.3-70b-versatile"
-    GROQ_MAX_TOKENS = 4096
+    GROQ_MAX_TOKENS = 2048
 
     # Vector Store Configurations
     GOOGLE_API_KEY = os.getenv("GOOGLE_API_KEY")
     GOOGLE_EMBEDDING_MODEL = "models/embedding-001"
-    CHUNK_SIZE = 1500
-    CHUNK_OVERLAP_SIZE = 200
+    CHUNK_SIZE = 1000
+    CHUNK_OVERLAP_SIZE = 150
     TOP_K = 3
     
     # Research Configurations

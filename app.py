@@ -1,4 +1,5 @@
 import streamlit as st
+from backend.utils import styles
 from backend.workflow_manager import WorkflowManager
 
 st.set_page_config(
@@ -25,7 +26,16 @@ def main():
     # User input
     user_query = st.chat_input(placeholder="Research about something...")
     
+    markdown_css = styles()
+
     if user_query:
+        st.markdown(f"""
+        <div class="chat-box">
+            <span class="icon">👩‍🎨</span>
+            <span class="user-role">User: </span>
+            {user_query}
+        </div>""", unsafe_allow_html=True)
+
         workflow = WorkflowManager(user_query=user_query)
         final_output, iterations = workflow.process_workflow()
 
