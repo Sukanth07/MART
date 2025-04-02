@@ -1,3 +1,5 @@
+# streamlit run app.py
+
 import streamlit as st
 from backend.utils import styles
 from backend.workflow_manager import WorkflowManager
